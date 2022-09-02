@@ -10,4 +10,4 @@ git+https://github.com/matthew-brett/sphinx-book-theme.git@deepnote-button
 ghp-import
 
 # Notebook etc requirements
--r requirements.txt
+# -r requirements.txt

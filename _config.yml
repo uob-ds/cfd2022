@@ -1,5 +1,5 @@
 # Book settings
-title : "Coding for Data - 2021 edition"
+title : "Coding for Data - 2022 edition"
 author: Matthew Brett, Ani Adhikari, John Denero, David Wagner, Peter Rush
 logo: images/dsfe_logo.png
 email: matthew.brett@gmail.com
@@ -22,10 +22,10 @@ html:
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
-  baseurl: https://uob-ds.github.io/cfd2021
+  baseurl: https://uob-ds.github.io/cfd2022
 
 repository:
-  url: https://github.com/uob-ds/cfd2021
+  url: https://github.com/uob-ds/cfd2022
   branch: main
 
 launch_buttons:
@@ -35,13 +35,12 @@ launch_buttons:
   binderhub_url: "https://mybinder.org"
   # The URL of Google Colab (e.g., https://colab.research.google.com)
   colab_url: "https://colab.research.google.com"
-
   deepnote_url: "https://deepnote.com"
   thebe: true
 
 sphinx:
   config:
-    mathjax_config:
+    mathjax3_config:
       TeX:
         Macros:
           "N": "\\mathbb{N}"
@@ -68,7 +67,7 @@ sphinx:
 
 latex:
   latex_documents:
-    targetname: cfd2021.tex
+    targetname: cfd2022.tex
 
 bibtex_bibfiles:
   - _references.bib
