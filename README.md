@@ -192,10 +192,10 @@ conda install nbconvert
 [to install library needed for deepnote links]
 
 before make html:
-git submodule update --init
-make html
-make github
-(to push changes to github repo)
+git submodule update --init  
+make html  
+make github  
+(to push changes to github repo)  
 
 ### Shipping
 
