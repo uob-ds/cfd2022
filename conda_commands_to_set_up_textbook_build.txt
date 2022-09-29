@@ -6,7 +6,7 @@ conda create -n cfd2022Env
 conda activate cfd2022Env
 conda install -c conda-forge mamba
 # for faster package installation
-conda install -c conda-forge jupyter-book
+mamba install -c conda-forge jupyter-book
 # needed for making the textbook
 
 # other packages needed to build the textbook
@@ -22,4 +22,6 @@ mamba install -c conda-forge sqlalchemy
 # needed to push the textbook to the 'gh-pages' of the github storing the docs
 mamba install -c conda-forge ghp-import
 
+# pushes rebuilt book to github 'gh-pages' branch of book repo
+# where html version resides for viewing
 ghp-import -n ./_build/html -p -f
